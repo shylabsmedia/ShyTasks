@@ -33,3 +33,13 @@ class TaskManager:
         """Returns a list of all tasks."""
 
         return self.tasks
+    
+    def delete_task(self, task_id: int):
+        """Deletes a task by its ID."""
+
+        for task in self.tasks:
+            if task.id == task_id:
+                self.tasks.remove(task)
+                return task
+        
+        return None
