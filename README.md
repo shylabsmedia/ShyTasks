@@ -8,19 +8,19 @@ ShyTasks is the first software project released under **ShyLabs**, created as a 
 
 ## Features
 
-- ✅ Create tasks
-- ✅ View tasks
+- ✅ Add tasks
 - ✅ Delete tasks
-- ✅ Priority selection menu
-- ✅ Category selection menu
-- ✅ Input validation
-- ✅ Simple terminal interface
+- ✅ View tasks
+- ✅ Save tasks automatically
+- ✅ Load tasks on startup
+- ✅ JSON persistence
+- ✅ Categories
+- ✅ Priorities
 
 ---
 
 ## Planned Features
 
-- Save tasks to JSON
 - Edit tasks
 - Mark tasks as completed
 - Search and filter tasks
@@ -66,6 +66,16 @@ ShyTasks/
 - Better task display
 - Task editing
 - Status management
+
+### v0.3.0
+- Edit tasks
+- Mark task as completed
+- Better terminal interface
+
+### v0.4.0
+- Search tasks
+- Filter by category
+- Filter by priority
 
 ### Future
 - GUI version
