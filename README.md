@@ -46,6 +46,7 @@ ShyTasks/
 ├── docs/
 ├── models/
 ├── services/
+├── storage/
 ├── utils/
 ├── main.py
 └── README.md
